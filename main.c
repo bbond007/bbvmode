@@ -194,7 +194,7 @@ int parse_rez(char * str, unsigned int * width, unsigned int * height)
     {
         if (str[i] == ',')
             c++;
-        else if (isdigit(c))
+        else if (isdigit(str[i]))
             switch(c)
             {
             case 0:
